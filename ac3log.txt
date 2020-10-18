@@ -1,0 +1,68 @@
+2020-10-18T18:12:22.067277+00:00 app[api]: Initial release by user frascaroli40@hotmail.com
+2020-10-18T18:12:22.067277+00:00 app[api]: Release v1 created by user frascaroli40@hotmail.com
+2020-10-18T18:12:22.160535+00:00 app[api]: Release v2 created by user frascaroli40@hotmail.com
+2020-10-18T18:12:22.160535+00:00 app[api]: Enable Logplex by user frascaroli40@hotmail.com
+2020-10-18T18:13:53.000000+00:00 app[api]: Build started by user frascaroli40@hotmail.com
+2020-10-18T18:14:18.546028+00:00 app[api]: Deploy 537a123a by user frascaroli40@hotmail.com
+2020-10-18T18:14:18.546028+00:00 app[api]: Release v3 created by user frascaroli40@hotmail.com
+2020-10-18T18:14:18.558100+00:00 app[api]: Scaled to web@1:Free by user frascaroli40@hotmail.com
+2020-10-18T18:14:21.876868+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-18T18:14:24.036509+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-18T18:14:24.036529+00:00 app[web.1]: * Environment: production
+2020-10-18T18:14:24.036529+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-18T18:14:24.036558+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-18T18:14:24.036601+00:00 app[web.1]: * Debug mode: off
+2020-10-18T18:14:24.046090+00:00 app[web.1]: * Running on http://0.0.0.0:22203/ (Press CTRL+C to quit)
+2020-10-18T18:14:25.643925+00:00 heroku[web.1]: State changed from starting to up
+2020-10-18T18:14:27.000000+00:00 app[api]: Build succeeded
+2020-10-18T18:14:57.614302+00:00 app[web.1]: 10.69.31.173 - - [18/Oct/2020 18:14:57] "GET / HTTP/1.1" 404 -
+2020-10-18T18:14:57.614967+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=fc03dcd9-9380-43b7-8dd6-b9bdea0aa487 fwd="191.254.90.42" dyno=web.1 connect=1ms service=11ms status=404 bytes=379 protocol=https
+2020-10-18T18:14:57.999142+00:00 app[web.1]: 10.69.31.173 - - [18/Oct/2020 18:14:57] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-18T18:14:58.000027+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3edu.herokuapp.com request_id=e2b3128d-278d-433e-9b31-17ffb46af979 fwd="191.254.90.42" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:15:47.121166+00:00 app[web.1]: 10.69.31.173 - - [18/Oct/2020 18:15:47] "GET / HTTP/1.1" 404 -
+2020-10-18T18:15:47.122088+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=2a9d0780-1365-4feb-a5a6-5624ab8b2839 fwd="191.254.90.42" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:16:20.223331+00:00 app[web.1]: 10.69.31.173 - - [18/Oct/2020 18:16:20] "GET / HTTP/1.1" 404 -
+2020-10-18T18:16:20.224030+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=da8c23b2-e271-430f-a2bc-cc99feed1280 fwd="191.254.90.42" dyno=web.1 connect=1ms service=2ms status=404 bytes=379 protocol=https
+2020-10-18T18:24:06.655057+00:00 app[web.1]: 10.45.208.208 - - [18/Oct/2020 18:24:06] "GET / HTTP/1.1" 404 -
+2020-10-18T18:24:06.655607+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=d1640a02-06bd-425c-9f6e-25a225d4f41f fwd="191.254.90.42" dyno=web.1 connect=1ms service=2ms status=404 bytes=379 protocol=https
+2020-10-18T18:27:17.175938+00:00 app[web.1]: 10.33.162.24 - - [18/Oct/2020 18:27:17] "GET / HTTP/1.1" 404 -
+2020-10-18T18:27:17.176357+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=6f02273a-c9c9-4764-9a42-7e6b029cfd88 fwd="191.254.90.42" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:44:41.514225+00:00 app[web.1]: 10.30.91.53 - - [18/Oct/2020 18:44:41] "GET / HTTP/1.1" 404 -
+2020-10-18T18:44:41.518517+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=ee0766e7-7282-4826-ad6c-00f2eeb6272b fwd="191.254.90.42" dyno=web.1 connect=1ms service=6ms status=404 bytes=379 protocol=https
+2020-10-18T18:46:04.024582+00:00 app[web.1]: 10.71.137.172 - - [18/Oct/2020 18:46:04] "GET / HTTP/1.1" 404 -
+2020-10-18T18:46:04.029627+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=1fac991d-9336-443c-9b6e-2eb0eda28427 fwd="191.254.90.42" dyno=web.1 connect=0ms service=5ms status=404 bytes=379 protocol=https
+2020-10-18T18:46:22.771617+00:00 app[web.1]: 10.71.137.172 - - [18/Oct/2020 18:46:22] "GET / HTTP/1.1" 404 -
+2020-10-18T18:46:22.773479+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=693847fe-8af6-430f-8219-612e5bc71ab2 fwd="191.254.90.42" dyno=web.1 connect=0ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:49:12.660152+00:00 app[web.1]: 10.51.235.186 - - [18/Oct/2020 18:49:12] "GET / HTTP/1.1" 404 -
+2020-10-18T18:49:12.664349+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=60145631-dc9a-48f4-bcdf-0b7b1765cf44 fwd="191.254.90.42" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:51:17.738912+00:00 app[web.1]: 10.41.169.187 - - [18/Oct/2020 18:51:17] "GET / HTTP/1.1" 404 -
+2020-10-18T18:51:17.741790+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=c35e764e-d046-42d9-9d0a-df901cbee28f fwd="191.254.90.42" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:53:53.078344+00:00 app[web.1]: 10.9.250.56 - - [18/Oct/2020 18:53:53] "GET / HTTP/1.1" 404 -
+2020-10-18T18:53:53.080375+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=88901755-3e9b-4ee4-9cf9-44a9e97e0b05 fwd="191.254.90.42" dyno=web.1 connect=0ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T18:56:44.251197+00:00 app[web.1]: 10.63.127.111 - - [18/Oct/2020 18:56:44] "GET / HTTP/1.1" 404 -
+2020-10-18T18:56:44.255752+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=5f896bc7-77ca-45ad-8086-dd2b1b238338 fwd="191.254.90.42" dyno=web.1 connect=1ms service=5ms status=404 bytes=379 protocol=https
+2020-10-18T18:56:53.005490+00:00 app[web.1]: 10.63.127.111 - - [18/Oct/2020 18:56:53] "GET / HTTP/1.1" 404 -
+2020-10-18T18:56:53.007121+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=741cca7d-9f2c-4762-bd5e-94e6d7e1ab65 fwd="191.254.90.42" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2020-10-18T19:00:57.000000+00:00 app[api]: Build started by user frascaroli40@hotmail.com
+2020-10-18T19:01:20.630335+00:00 app[api]: Deploy a539390d by user frascaroli40@hotmail.com
+2020-10-18T19:01:20.630335+00:00 app[api]: Release v4 created by user frascaroli40@hotmail.com
+2020-10-18T19:01:21.047828+00:00 heroku[web.1]: Restarting
+2020-10-18T19:01:21.050589+00:00 heroku[web.1]: State changed from up to starting
+2020-10-18T19:01:21.925941+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-18T19:01:22.006068+00:00 heroku[web.1]: Process exited with status 143
+2020-10-18T19:01:23.883108+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-18T19:01:26.564762+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+OAOAOAOAOAOA2020-10-18T19:01:26.564784+00:00 app[web.1]: * Environment: production
+2020-10-18T19:01:26.564860+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-18T19:01:26.564894+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-18T19:01:26.564923+00:00 app[web.1]: * Debug mode: off
+OAOAOA2020-10-18T19:01:26.585208+00:00 app[web.1]: * Running on http://0.0.0.0:28770/ (Press CTRL+C to quit)
+OAOAOAOAOAOA2020-10-18T19:01:26.838142+00:00 heroku[web.1]: State changed from starting to up
+2020-10-18T19:01:29.000000+00:00 app[api]: Build succeeded
+2020-10-18T19:02:24.471477+00:00 app[web.1]: 10.5.239.252 - - [18/Oct/2020 19:02:24] "GET / HTTP/1.1" 200 -
+2020-10-18T19:02:24.474104+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=aa299dcb-71cd-4bbc-8fb2-4b9ee53e4aaa fwd="177.27.254.76" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=http
+2020-10-18T19:02:25.050287+00:00 app[web.1]: 10.5.239.252 - - [18/Oct/2020 19:02:25] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-18T19:02:25.053230+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3edu.herokuapp.com request_id=a810bcbe-9f72-4b87-a2f7-b4eef5e9d757 fwd="177.27.254.76" dyno=web.1 connect=1ms service=23ms status=404 bytes=379 protocol=http
+2020-10-18T19:02:29.220100+00:00 app[web.1]: 10.35.227.185 - - [18/Oct/2020 19:02:29] "GET / HTTP/1.1" 200 -
+2020-10-18T19:02:29.222905+00:00 heroku[router]: at=info method=GET path="/" host=ac3edu.herokuapp.com request_id=4013d258-2f23-42a9-9950-eba9c49aa6cc fwd="191.254.90.42" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+
